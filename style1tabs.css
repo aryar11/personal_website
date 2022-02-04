@@ -1,0 +1,114 @@
+.nav {
+  overflow: hidden;
+  top: 0;
+  width: 101.5%;
+  background-color: maroon;
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-top: -25px;
+  margin-left: -10px;
+}
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav a:hover {
+  background-color: #ddd;
+  color: maroon;
+}
+body,
+html {
+  background-color: rgb(139, 134, 134);
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin: auto;
+  width: 70%;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: 50;
+  padding-bottom: 20px;
+}
+.projects {
+  text-align: none;
+  color: white;
+  font-size: 30px;
+  width: 60%;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: 50;
+  padding-bottom: 20px;
+}
+.project-text {
+  float: left;
+  color: rgba(0, 0, 0, 0.993);
+  font-size: 18px;
+  width: 60%;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: 580;
+
+  padding-bottom: 110px;
+}
+
+.amp {
+  float: right;
+}
+.cpu {
+  float: right;
+  max-width: 40%;
+  height: auto;
+}
+
+.git {
+  float: left;
+  color: rgba(0, 0, 0, 0.993);
+  font-size: 18px;
+  width: 60%;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: 580;
+  padding-top: 110px;
+}
+.git a:hover {
+  color: maroon;
+}
+
+.card-img-top {
+  max-width: 40%;
+  height: auto;
+}
+.card-body {
+  font-size: 11px;
+  margin-left: -127px;
+}
+
+#future-text {
+  text-align: center;
+  margin-left: 160px;
+  width: 80%;
+}
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.skills {
+  margin-left: 300px;
+  color: rgba(0, 0, 0, 0.993);
+  font-size: 22px;
+  width: 60%;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: 580;
+}

@@ -1,16 +1,19 @@
 .nav {
   overflow: hidden;
   top: 0;
-  width: 100%;
+  width: 101.5%;
   background-color: maroon;
   padding: 0;
   margin: 0;
   float: left;
+  margin-top: -21px;
+  margin-left: -10px;
 }
 .nav a {
   float: left;
   display: block;
   color: #f2f2f2;
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,15 +34,16 @@ body {
 body,
 html {
   height: 100%;
+  background-color: rgb(114, 108, 108);
 }
 
 .bg {
   /* The image used */
   background-image: url("images/aerial_tamu.jpg");
-
+  margin-left: -10px;
   /* Full height */
   height: 85%;
-
+  width: 101.5%;
   /* Center and scale the image nicely */
   background-position: top;
   background-repeat: no-repeat;
@@ -109,13 +113,15 @@ html {
   width: 100%;
   color: maroon;
 }
-
+.contact-text {
+  margin-left: 5px;
+}
 .email {
   text-align: left;
   color: white;
   font-size: 14px;
   margin: auto;
-
+  margin-left: 5px;
   text-decoration: none;
   font-family: "Courier New", monospace;
   font-weight: 50;
