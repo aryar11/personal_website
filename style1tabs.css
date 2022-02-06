@@ -123,7 +123,7 @@ ul {
 }
 
 .skills {
-  margin-left: 300px;
+  margin-left: 550px;
   color: rgba(0, 0, 0, 0.993);
   font-size: 22px;
   width: 60%;
@@ -140,20 +140,24 @@ ul {
 .unicef_pic {
   max-width: 90%;
   height: auto;
-  margin-left: 200px;
-  margin-right: 400px;
+  margin-left: 550px;
+  margin-right: 380px;
   margin-top: 30px;
 }
 
+
+
 #service_text {
   text-align: center;
-  margin-left: 100px;
+  margin-left: 200px;
   width: 80%;
 }
+
+
 
 .headshot {
   max-width: 40%;
   height: auto;
-  margin-left: 250px;
+  margin-left: 380px;
   margin-top: -100px;
 }

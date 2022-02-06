@@ -78,11 +78,12 @@ html {
 }
 
 .amp {
-  float: right;
+  float: left;
+  margin-left: 10px;
 }
 .cpu {
-  float: right;
-  max-width: 40%;
+  float: left;
+  max-width: 27%;
   height: auto;
 }
 
@@ -95,7 +96,7 @@ html {
   font-family: "Copperplate", monospace;
   font-weight: 580;
   padding-top: 110px;
-  margin-top: -50px;
+  margin-top: 30px;
 }
 .git a:hover {
   color: maroon;
@@ -134,7 +135,7 @@ ul {
 }
 
 .skills {
-  margin-left: 300px;
+  margin-left: 400px;
   color: rgba(0, 0, 0, 0.993);
   font-size: 22px;
   width: 60%;
@@ -152,7 +153,7 @@ ul {
 .unicef_pic {
   max-width: 90%;
   height: auto;
-  margin-left: 200px;
+  margin-left: 550px;
   margin-right: 400px;
   margin-top: 30px;
 }
@@ -167,6 +168,6 @@ ul {
 .headshot {
   max-width: 40%;
   height: auto;
-  margin-left: 250px;
+  margin-left: 450px;
   margin-top: -100px;
 }
