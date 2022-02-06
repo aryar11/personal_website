@@ -1,43 +1,42 @@
 .nav {
-  overflow: hidden;
-  top: 0;
   width: 101.5%;
-  background-color: maroon;
-  padding: 0;
-  margin: 0;
+  background-color: rgb(21, 78, 133);
   float: left;
-  margin-top: -21px;
+  margin-top: -22px;
   margin-left: -10px;
 }
+
+/* Navbar links */
 .nav a {
   float: left;
-  display: block;
-  color: #f2f2f2;
-
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px;
+  color: white;
   text-decoration: none;
   font-size: 17px;
 }
+
+/* Navbar links on mouse-over */
 .nav a:hover {
-  background-color: #ddd;
-  color: maroon;
+  background-color: #000;
 }
-.navpic {
-  width: 0%;
+
+/* Current/active navbar link */
+.active {
+  background-color: rgb(3, 42, 97);
 }
 body,
 html {
   height: 100%;
-  background-color: rgb(114, 108, 108);
+  background-color: rgb(3, 12, 136);
 }
 
 .bg {
   /* The image used */
-  background-image: url("images/aerial_tamu.jpg");
+  background-image: url("images/kyle_field_snow.jpg");
   margin-left: -10px;
   /* Full height */
-  height: 85%;
+  height: 100%;
   width: 101.5%;
   /* Center and scale the image nicely */
   background-position: top;
@@ -46,12 +45,12 @@ html {
 }
 .major {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 50px;
   margin: auto;
   width: 70%;
   text-decoration: none;
-  font-family: "Courier New", monospace;
+  font-family: "Copperplate", monospace;
   font-weight: 50;
   padding-bottom: 20px;
 }
@@ -61,12 +60,12 @@ html {
 
 .school {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 50px;
   margin: auto;
   width: 70%;
   text-decoration: none;
-  font-family: "Courier New", monospace;
+  font-family: "Copperplate", monospace;
   font-weight: 50;
   padding-bottom: 20px;
 }
@@ -76,23 +75,23 @@ html {
 
 .name {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 50px;
   margin: auto;
   width: 50%;
-  font-family: "Courier New", monospace;
+  font-family: "Copperplate", monospace;
   font-weight: 50;
   padding-bottom: 20px;
 }
 
 .minor {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 50px;
   margin: auto;
   width: 70%;
   text-decoration: none;
-  font-family: "Courier New", monospace;
+  font-family: "Copperplate", monospace;
   font-weight: 50;
   padding-bottom: 20px;
 }
@@ -101,15 +100,17 @@ html {
 }
 
 .contact {
-  background-color: rgb(114, 108, 108);
+  background-color: rgb(21, 78, 133);
   overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
-  color: maroon;
+  color: white;
+  height: 20%;
 }
 .contact-text {
   margin-left: 5px;
+  margin-bottom: -1px;
 }
 .email {
   text-align: left;
@@ -118,7 +119,7 @@ html {
   margin: auto;
   margin-left: 5px;
   text-decoration: none;
-  font-family: "Courier New", monospace;
+  font-family: "Copperplate", monospace;
   font-weight: 50;
   padding-bottom: 10px;
 }
