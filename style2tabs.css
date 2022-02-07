@@ -22,9 +22,7 @@
 }
 
 /* Current/active navbar link */
-.active {
-  background-color: rgb(3, 42, 97);
-}
+
 body,
 html {
   height: 100%;
@@ -78,10 +76,10 @@ html {
 }
 
 .amp {
-  float: right;
+  float: left;
 }
 .cpu {
-  float: right;
+  float: left;
   max-width: 40%;
   height: auto;
 }
@@ -114,6 +112,7 @@ html {
   background-color: rgb(174, 214, 236);
   width: 14rem;
 }
+
 #future-title {
   margin-top: -60px;
 }
@@ -134,7 +133,7 @@ ul {
 }
 
 .skills {
-  margin-left: 300px;
+  margin-left: 400px;
   color: rgba(0, 0, 0, 0.993);
   font-size: 22px;
   width: 60%;
@@ -152,21 +151,22 @@ ul {
 .unicef_pic {
   max-width: 90%;
   height: auto;
-  margin-left: 200px;
+  margin-left: 350px;
   margin-right: 400px;
   margin-top: 30px;
 }
 
 #service_text {
   text-align: center;
-  margin-left: 10px;
+  margin-left: 0px;
   width: 80%;
-  margin-right: 90px;
+  margin-right: 140px;
 }
 
 .headshot {
   max-width: 40%;
   height: auto;
-  margin-left: 250px;
+  margin-left: 320px;
   margin-top: -100px;
+  float: inline-end;
 }

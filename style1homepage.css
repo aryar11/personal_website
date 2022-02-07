@@ -121,6 +121,7 @@ html {
   font-family: "Courier New", monospace;
   font-weight: 50;
   padding-bottom: 10px;
+  padding-top: -10px;
 }
 
 .email:hover {
@@ -128,7 +129,7 @@ html {
 }
 
 .btn {
-  background-color: maroon;
+  background-color: rgb(21, 78, 133);
   border: none;
   color: white;
   padding: 10px 26px;
@@ -137,7 +138,7 @@ html {
   display: inline-block;
   font-size: 14px;
   border-radius: 8px;
-  margin-left: 800px;
+  margin-left: 1100px;
 }
 
 .btn:hover {
