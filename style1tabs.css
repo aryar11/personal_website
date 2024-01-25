@@ -76,6 +76,31 @@ html {
 .amp {
   float: right;
 }
+.happy_camper {
+  float: auto;
+  color: rgba(0, 0, 0, 0.993);
+  font-size: 18px;
+  width: 40%;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: 580;
+}
+.happy_camper:hover {
+  color: maroon;
+}
+.machine_learning {
+  float: auto;
+  color: rgba(0, 0, 0, 0.993);
+  font-size: 18px;
+  width: 10%;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: 580;
+  padding-left: 150px;
+}
+.machine_learning:hover {
+  color: maroon;
+}
 .cpu {
   float: right;
   max-width: 40%;
@@ -152,8 +177,8 @@ ul {
 }
 
 .headshot {
-  max-width: 40%;
+  max-width: 50%;
   height: auto;
-  margin-left: 280px;
+  margin-left: 220px;
   margin-top: -100px;
 }

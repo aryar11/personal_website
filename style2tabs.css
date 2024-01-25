@@ -61,7 +61,32 @@ html {
 
   padding-bottom: 110px;
 }
-
+.happy_camper {
+  float: auto;
+  color: rgba(0, 0, 0, 0.993);
+  font-size: 18px;
+  width: 30%;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: 580;
+  padding-bottom: 100px;
+}
+.happy_camper:hover {
+  color: maroon;
+}
+.machine_learning {
+  float: auto;
+  color: rgba(0, 0, 0, 0.993);
+  font-size: 18px;
+  width: 10%;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: 580;
+  padding-left: 50px;
+}
+.machine_learning:hover {
+  color: maroon;
+}
 .bpd {
   float: auto;
   color: rgba(0, 0, 0, 0.993);
