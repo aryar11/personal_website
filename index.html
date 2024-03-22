@@ -1,96 +1,625 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<head prefix="og: http://ogp.me/ns#">
+    <title>Arya Rahmanian | Computer Enginering MS </title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Arya Rahmanian's Personal Website, Come Take a Look!"
-    />
-    <title>Arya | Home</title>
-    <link href="style1homepage.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script type="text/javascript" src="function.js"></script>
-  </head>
-  <body>
-    <div class="nav" id="nav">
-      <a class="active" href="index.html"
-        ><i class="fa fa-fw fa-home"></i> Home
-      </a>
-      <a href="portfolio.html"><i class="fa fa-fw fa-envelope"></i>Portfolio</a>
-      <a href="qualification.html"
-        ><i class="fa fa-fw fa-list"></i> Qualifications</a
-      >
-      <a href="service.html"
-        ><i class="fa fa-fw fa-user"></i>About Me/Service</a
-      >
-    </div>
+    <meta name="keywords" content="arya rahmanian, arya, texas a&m, tamu, university, student, firmware, computer architecture, internship, recent grad, entry level" />
+    <meta name="author" content="Arya Rahmanian" />
+    <meta name="description" content="Low-level Developer, Programming Enthusiast, and everything in between." />
+    <meta property="og:description" content="Low-level Developer, Programming Enthusiast, and everything in between." />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:title" content="Arya Rahmanian's Personal Website" />
+    <meta property="og:type" content="website" />
+    <link rel="shortcut icon" href="img/logo-transparent-00009C.png">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'>
+    <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/f5a3309379.js" crossorigin="anonymous"></script>
+</head>
 
-    <div class="bg">
-      <h1>
-        <br />
-        <br />
-        <p class="name">Arya Rahmanian</p>
-
-        <div class="school">
-          <a href="https://www.tamu.edu" target="_blank" class="school"
-            >Texas A&M University</a
-          >
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" data-offset="100">
+    <!-- <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-top"></div>
+        <div class="loader-section section-bottom"></div>
+    </div> -->
+    <div id="content">
+        <!-- Navigation -->
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-2x fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" >
+                        <img src="img/logo-transparent-white-30pt.png" />Arya Rahmanian</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-main-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a class="page-scroll" href="#page-top"></a>
+                        </li>
+                        <li><a class="page-scroll" href="#about">About</a></li>
+                        <li><a class="page-scroll" href="#services">Passion</a></li>
+                        <li><a class="page-scroll" href="#experience">Experience</a></li>
+                        <li><a class="page-scroll" href="#portfolio">Work</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Section: Introduction -->
+        <section id="intro" class="intro text-center">
+            <div class="overlay">
+                <div class="intro-content">
+                    <h1 class="animated fadeInDown delay-05s">Hi, I'm Arya</strong>
+                    </h1>
+                    <p class="subtitle animated fadeInUp delay-05s"> Computer Engineering Masters Student</p>
+                    <a class="fa fa-angle-down page-scroll" href="#about"></a>
+                </div>
+            </div>
+        </section>
+        <!-- Section: About -->
+        <section id="about" class="text-center">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 wp1">
+                            <h2>A Little Bit About Me</h2>
+                            <img src="img/headshot1-square4.jpg" id="prof-pic" />
+                            <p>
+                                Hey! I'm Arya, a Computer Engineering Masters student taking classes at 
+                                <a href="https://www.tamu.edu/index.html" target="_blank">Texas A&M</a>. I recently completed my undergraduate in Computer Engineering, also at Texas A&M, with a minor in mathematics. 
+                                <br>
+                                <br> When I'm not on the computer, I enjoy basketball, running, and board game nights.
+                            </p>
+                        </div>
+                    </div>
+        </section>
+        <!-- /Section: About -->
+        <!-- Section: Services (Passions) -->
+        <section id="services" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>What I Do</h2>
+                        <div class="spacer-10"></div>
+                        <div class="col-md-4 wp2">
+                            <div class="icon"><i class="fa fa-laptop"></i></div>
+                            <h3>Personal Projects</h3>
+                            <p>Check out some of my personal projects that I've done on my own! I love exploring the field by implementing hard skills in the real world.
+                            </p>
+                        </div>
+                        <div class="col-md-4 wp2 delay-025s">
+                            <div class="icon"><i class="fa fa-code"></i></div>
+                            <h3>Development</h3>
+                            <p>
+                                I utilize my background in computer science and electrical engineering to work with embedded systems and web development. I'm also interested in design and layout verification, and I prioritize writing clean, concise code to build larger systems.
+                            </p>
+                        </div>
+                        <div class="col-md-4 wp2 delay-05s">
+                            <div class="icon"><i class="fa fa-lightbulb-o"></i></div>
+                            <h3>Involvement</h3>
+                            <p>
+                                I'm invested in the community, from the IEEE chapter at A&M as a corporate officer, to my hometown, suburb outside of Dallas. I am passionate about meaningful work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section: Experience -->
+        <section id="experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-10 col-md-offset-1 text-center wp3">
+                            <h2>Experience</h2>
+                            <p>I've been working with a wide array of programming languages for several years now in many different environments. Here are some of my top programming languages, and I'm looking forward to learning more:</p>
+                        </div>
+                         <div class="col-md-8 col-xs-8 skills">
+                            <ul class="skills-bar-container">
+                                <label>C++</label>
+                                <span class="percent" id="html-percent"></span>
+                                <li>
+                                    <span class="progressbar progressred wp3-1" id="progress-1"></span>
+                                </li>
+                                <label>Python</label>
+                                <span class="percent" id="css-percent"></span>
+                                <li>
+                                    <span class="progressbar progressblue wp3-2" id="progress-2"></span>
+                                </li>
+                                <label>Verilog</label>
+                                <span class="percent" id="javascript-percent"></span>
+                                <li>
+                                    <span class="progressbar progresspurple wp3-3" id="progress-3"></span>
+                                </li>
+                                <label>C</label>
+                                <span class="percent" id="angular-percent"></span>
+                                <li>
+                                    <span class="progressbar progressgreen wp3-4" id="progress-4"></span>
+                                </li>
+                                <label>HTML and CSS w/ JavaScript</label>
+                                <span class="percent" id="php-percent"></span>
+                                <li>
+                                    <span class="progressbar progressorange wp3-5" id="progress-5"></span>
+                                </li>
+                            </ul>
+                        </div> 
+                        <div class="col-sm-offset-1 col-xs-12 col-sm-6 col-md-6 skills-section wp3">
+                            <h3>Some technologies I've worked with:</h3>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/html.png" id="html"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/css.png" id="css"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/fpga.jpg" id="sass"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/js.png" id="js"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/java.png"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/python.png" id="python"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/verilog.png" id="jquery"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/assembly.svg" id="bootstrap"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/c++.png" id="foundation"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/tensorflow.png"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/sql.svg" id="node"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/C_Logo.png"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/github.png"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/ubuntu.png"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/linux.png"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/pytorch.png"></div>
+                                <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/skills/aws.png"></div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-3 employment wp3">
+                            <div class="text-center places-worked">
+                                <h3>Where I've Worked:</h3>
+                                <!-- <a href="http://www.starry.com/" target="_blank">
+                                    <img id="starry-logo" src="img/starry-logo.png" alt="Starry" />
+                                </a> -->
+                                <a href="https://strikephotonics.com/" target="_blank">
+                                    <img id="mullen-logo" src="img/strike_photonics.png" alt="Strike" />
+                                </a>
+                                <a href="https://www.tamu.edu/index.html" target="_blank">
+                                    <img id="nu-logo" src="img/tamu.png" alt="Tamu" />
+                                </a>
+                                <br/>
+                                <a href="https://www.chemours.com/en" target="_blank">
+                                    <img id="nu-logo" src="img/chemours.png" alt="Chemours" />
+                                </a>                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /col-->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- Container-->
+        </section>
+        <!-- /Section: Experience -->
+        <!-- Section: Resume -->
+        <section id="resume">
+            <div class="text-center">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Check out my resume!</h2>
+                                <div id="resume-button">
+                                    <a class="resume-btn wp4" href="Resume-2024.pdf" target="_blank">Grab A Copy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- row -->
+                    </div>
+                    <!-- container -->
+                </div>
+            </div>
+        </section>
+        <!-- /Section: Resume -->
+        <!-- Section: Portfolio -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">What I've Done</h2>
+                    <h5 class="coming-soon">(more coming soon)</h5>
+                </div>
+                <div class="row portfolio-row">
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#courseSourceModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                            </div>
+                            <img src="img/fashionCNN.png" alt="image">
+                            <div class="portfolio-info">
+                                <h3>CNN to classify fashion images</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#feedbackLoopModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="img/gitea.png" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Set up Git server at Strike Photonics</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#webdevModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="img/happy_camper.png" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Happy Campers Web App</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#fontipsumsModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="img/deviceDriver.png" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Linux Character Device Driver</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#nuwitModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="img/ecen325project.png" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Audio Amplifier</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#oneCardForAllModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="img/CPU.png" alt="image">
+                            <div class="portfolio-info">
+                                <h3>ARM Processor in Verilog</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#medMilModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="img/real v ai.png" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Real vs AI Image Classifier</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#humankindaModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="img/connect 4.png" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Connect 4 with JavaFX</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#uscModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="img/satracker ss.png" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Satellite Viewing and Tracking Website</h3>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <!--************************** PORTFOLIO MODALS **************************-->
+        <!-- Fashion CNN MODAL -->
+        <div class="modal fade" id="courseSourceModal" tabindex="-1" role="dialog" aria-labelledby="courseSourceModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Fashion Images Classifer CNN </h4>
+                        <h6 class="modal-title-description">Machine Learning Clas Project</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/fashionCNN.png" alt="">
+                        </p>
+                        <p class="modal-description"> 
+                            In my machine learning class, I 
+                        </p>
+                        <p class="visit"> <a href="https://github.com/aryar11/AIvsReal-Art-CNN" target="_blank" id="visit-btn">View Source</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Strike Photonics Git Server MODAL -->
+        <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Set up Git server for Strike Photonics</h4>
+                        <h6 class="modal-title-description">Internship Project</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/serverRoom.jpg" alt="">
+                        </p>
+                        <p class="modal-description">
+                            At Strike Photonics, I was tasked with setting up their Git server for the company. With a Dell PowerEdge server with 12 TB of SAS drives, I configured the software and protocols to give permission to whomever needed access to their source code. Using a blank disk, I burnt Ubuntu 22.04 to the server and used Gitea as the git software of choice.
+                        </p>  
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Happy Camper MODAL -->
+        <div class="modal fade" id="webdevModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Happy Campers Web App</h4>
+                        <h6 class="modal-title-description">Programming Studio Group Project</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/happy camper homepage.png" alt="">
+                        </p>
+                        <p class="modal-description">In my programming studio course at A&M, I was part of a group project in which we made a web application to help users pick a national park and plan a trip there. <br> <br>I was in charge of everything under the "Explore" tab. This encompassed selecting a national park for the user, identifying available activities at the park, providing information on park fees and available camping sites, and finally, offering a tool for building itineraries..</p>
+                        <Br>
+                        <p class="modal-description"><strong>Note:</strong> The website is mostly functional but the Google APIs aren't working due to recurring costs.</p>
+                        <p class="visit"><a href="https://happy-camperwebapp.s3.us-east-2.amazonaws.com/index.html" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/aryar11/CSCE315-Project3" target="_blank" id="visit-btn">View Source</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Linux Device Driver MODAL -->
+        <div class="modal fade" id="fontipsumsModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Device Driver in Linux</h4>
+                        <h6 class="modal-title-description">Low Level Programming</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/linux_logo.jpg" alt="">
+                            </p>
+                            <p class="modal-description">I really enjoyed this project. Using a Zybo FPGA board, I set up a multiplier circuit in Xilinx, designed to multiplie two numbers together. From there, I set up an ARM cortex microprocessor in Xilinix and successfully booted Linux from an SD card to operate on the Cortex processor integrated into the FPGA board. Lastly, I wrote a character device driver to be compiled at starup that multiplies several numbers and prints to the screen.</p>
+                            <p class="visit"><a href="https://github.com/aryar11/linuxDeviceDriver" target="_blank" id="visit-btn">View Source</a></p>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Audio Amplifier MODAL -->
+        <div class="modal fade" id="nuwitModal" tabindex="-1" role="dialog" aria-labelledby="nuwitModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">3 Stage Audio Amplifier</h4>
+                        <h6 class="modal-title-description">Class Project</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/ecen325project.png" alt="">
+                        </p>
+                        <p class="modal-description">In an analog course at A&M, my final project involved constructing a three-stage audio amplifier using Bipolar Junction Transistors (BJTs). Initially, I simulated the circuit using SPICE software, shown above. Once the simulations confirmed the circuit could handle the desired frequencies and provided sufficient gain, I built the design to a breadboard. In the end, the amplifier was successful in receiving audio input from my laptop and outputting sound through connected speakers. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ARM in Verilog MODAL -->
+        <div class="modal fade" id="oneCardForAllModal" tabindex="-1" role="dialog" aria-labelledby="oneCardForAllModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">ARM Processor in Verilog</h4>
+                        <h6 class="modal-title-description">Class Project</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/CPU.png" alt="">
+                        </p>
+                        <p class="modal-description"> In one of my favorite undergrad courses, Computer Architecture, I created a processor in Verilog with an ARM ISA. The processor pictured about is a real single cycle processor from Intel in the 80s, that our class used as an example. <br> <br> Unfortuanly, I lost the source code from a micro-SD card corrupting on me :(  </p>
+                        <br>
+            
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Real vs AI CNN MODAL -->
+        <div class="modal fade" id="medMilModal" tabindex="-1" role="dialog" aria-labelledby="medMilModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Real vs AI CNN</h4>
+                        <h6 class="modal-title-description">Machine Learning Project</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/real v ai.png" alt="">
+                        </p>
+                        <p class="modal-description"> In this personal project, I wanted to challenge myself to see if I can build a model that would be able to determine whether an image is AI generated. </br>For this model, I used PyTorch and Tensorflow to help me with this. Training over 150 epochs with Adam optimizer function at a learning rate of 0.0001, I was able to get my CNN to classify real vs AI images with an accuracy 80% and F1 score of 0.66.</p>
+                        <p class="visit"> <a href="https://github.com/aryar11/AIvsReal-Art-CNN" target="_blank" id="visit-btn">View Source</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Connect 4 JavaFX MODAL -->
+        <div class="modal fade" id="humankindaModal" tabindex="-1" role="dialog" aria-labelledby="mullen_comModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Connect 4</h4>
+                        <h6 class="modal-title-description">JavaFX Project</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/connect4GIF.gif" alt="">
+                        </p>
+                        <p class="modal-description">In order to solidfy Java fundamentals, I created Connect 4 using JavaFX. In this version, the user plays against the computer, which has two difficulties, easy and hard. In "Easy" mode, the opponent plays randomly, not much of a challenge. But in hard mode, the opponent has some more intellect, making sure to play their pieces closer together and will go for the win if they could.
+                        </p>
+                        <p class="visit"><a href="https://github.com/aryar11/Connect-4" target="_blank" id="visit-btn">Source Code</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SatTracker MODAL -->
+        <div class="modal fade" id="uscModal" tabindex="-1" role="dialog" aria-labelledby="uscModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">SatTracker</h4>
+                        <h6 class="modal-title-description">Senior Design Project</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/satTrackerDemo.gif" alt="">
+                        </p>
+                        <p class="modal-description">For my senior capstone project, two other students and I created a web appliction that allows users to visualize satellites or plot only a select few. Over the course of 2 semesters, we worked with startup specializing in using AI to predict space weather, Blue Eye Software, to build this application.
+                        </p>
+                        <p class="visit"><a href="https://github.com/aryar11/Capstone-SatTracker/tree/main" target="_blank" id="visit-btn">Source Code</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="major">
-          <a
-            href="https://engineering.tamu.edu/ce/index.html"
-            target="_blank"
-            class="major"
-            >M.S. Computer Engineering</a
-          >
-        </div>
-        <div class="minor">
-          <a
-            href="https://engineering.tamu.edu/ce/index.html"
-            target="_blank"
-            class="minor"
-            >B.S. Computer Engineering Cum Laude</a
-          >
-        </div>
+        <!-- Section: Contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center">
+                        <div class="email-icon"><i class="fa fa-paper-plane-o wp6"></i></div>
+                        <h2>Get In Touch!</h2>
+                        <p style="margin-top:40px;">
+                            <a id="email-button" href="mailto:aryarahmanian23@gmail.com" target="_blank">Say Hello</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Section: Contact -->
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <!-- <h3>Other places you can find me</h3> -->
+                        <ul class="list-inline social-buttons animated fadeIn">
+                            <!-- Twitter Button -->
+                            <li><a id="twitter" href="https://twitter.com/arya_rahmanian" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <!-- Spotify Button -->
+                            <li><a id="spotify" href="https://open.spotify.com/user/arya_r?si=637c1680de864a3f" target="_blank"><i class="fa fa-spotify"></i></a></li>
+                            <!-- GitHub Button -->
+                            <li><a id="github" href="https://github.com/aryar11" target="_blank"><i class="fa fa-github"></i></a></li>
+                            <!-- LinkedIn Button -->
+                            <li><a id="linkedin" href="https://www.linkedin.com/in/arya-rahmanian/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                        <div class="page-scroll">
+                            <a id="to-top" class="page-scroll" href="#page-top">
+                                <img id="rocket" src="img/rocket12.png" />
+                            </a>
+                            <p id="to-top-copy">Beam me up, Scotty!</p>
+                        </div>
 
-      </h1>
-      <h2>
-        <div class="contact">
-          <p class="contact-text">Contact Me</p>
-          <div class="email">
-            <a href="mailto: aryarahmanian@tamu.edu" class="email"
-              >E-mail: aryarahmanian23@gmail.com</a
-            >
-            <!--
-            <button type="button" onclick="changeCSS()" class="btn">
-              Switch Style
-            </button>
-          -->
-          <br />
-          <br />
-            <a
-              href="https://www.linkedin.com/in/arya-rahmanian/"
-              class="email"
-              id="linkedin"
-              target="_blank"
-              >LinkedIn</a
-            ><br />
-            <br />
-            <a
-              href="https://twitter.com/arya_rahmanian"
-              class="email"
-              target="_blank"
-              >Twitter</a
-            >
-          </div>
-        </div>
-      </h2>
-    </div>
-  </body>
+                    </div>
+                </div>
+            </div>
+            <!-- container -->
+        </footer>
+        <!-- Core JavaScript Files -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.scrollTo.min.js"></script>
+        <!-- Helpers -->
+        <script src="js/scrolling-nav.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+         $(function() {
+          $(".preload").fadeOut(2000, function() {
+              $(".everything").fadeIn(1000);
+          });
+         });
+        </script>
+
+</body>
+
 </html>
